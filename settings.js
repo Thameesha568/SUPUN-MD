@@ -6,7 +6,7 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-SESSION_ID: process.env.SESSION_ID === undefined ? 'SUPUN-MD=CAcikb5b#Gd_8dUqIr8NErEROwtycuDtlirYBoI8qr0L5JSpYaLY' : process.env.SESSION_ID,
+SESSION_ID: process.env.SESSION_ID === undefined ? 'SUPUN-MD=TMknVRga#NtgTmphT26YDIeibe_Zeo--n7fIN5ICtgAWL5jdy4Z0' : process.env.SESSION_ID,
 PREFIX: process.env.PREFIX || '.' ,
 PORT: process.env.PORT === undefined ? "8000" : process.env.PORT,
 OWNER_NUMBER: process.env.OWNER_NUMBER === undefined ? '94718461889' : process.env.OWNER_NUMBER,
@@ -27,7 +27,7 @@ AI_CHAT: process.env.AI_CHAT === undefined ? "true" : process.env.AI_CHAT,
 ALLWAYS_OFFLINE: process.env.ALLWAYS_OFFLINE === undefined ? "false" : process.env.ALLWAYS_OFFLINE,
 ALLWAYS_ONLINE: process.env.ALLWAYS_ONLINE === undefined ? "false" : process.env.ALLWAYS_ONLINE,
 AUTO_READ_CMD: process.env.AUTO_READ_CMD === undefined ? "true" : process.env.AUTO_READ_CMD,
-ALWAYS_RECORDING: process.env.ALWAYS_RECORDING === undefined ? "true" : process.env.ALWAYS_RECORDING,
+ALWAYS_RECORDING: process.env.ALWAYS_RECORDING === undefined ? "false" : process.env.ALWAYS_RECORDING,
 ALWAYS_TYPING: process.env.ALWAYS_TYPING === undefined ? "false" : process.env.ALWAYS_TYPING,
 AUTO_BIO: process.env.AUTO_BIO === undefined ? "false" : process.env.AUTO_BIO,
 AUTO_REACT: process.env.AUTO_REACT === undefined ? "true" : process.env.AUTO_REACT,
